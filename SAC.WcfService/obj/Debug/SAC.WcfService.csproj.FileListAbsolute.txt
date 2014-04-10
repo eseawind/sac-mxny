@@ -1,0 +1,16 @@
+E:\SACSIS20140318\SAC.WcfService\obj\Debug\ResolveAssemblyReference.cache
+E:\SACSIS20140318\SAC.WcfService\bin\SAC.WcfService.dll
+E:\SACSIS20140318\SAC.WcfService\bin\SAC.WcfService.pdb
+E:\SACSIS20140318\SAC.WcfService\bin\SAC.OBJ.dll
+E:\SACSIS20140318\SAC.WcfService\bin\DAL.dll
+E:\SACSIS20140318\SAC.WcfService\bin\SAC.DBOperations.dll
+E:\SACSIS20140318\SAC.WcfService\bin\SAC.RealTimeDB.dll
+E:\SACSIS20140318\SAC.WcfService\bin\SAC.Helper.dll
+E:\SACSIS20140318\SAC.WcfService\bin\eDnaApiNet.dll
+E:\SACSIS20140318\SAC.WcfService\bin\SAC.OBJ.pdb
+E:\SACSIS20140318\SAC.WcfService\bin\DAL.pdb
+E:\SACSIS20140318\SAC.WcfService\bin\SAC.DBOperations.pdb
+E:\SACSIS20140318\SAC.WcfService\bin\SAC.RealTimeDB.pdb
+E:\SACSIS20140318\SAC.WcfService\bin\SAC.Helper.pdb
+E:\SACSIS20140318\SAC.WcfService\obj\Debug\SAC.WcfService.dll
+E:\SACSIS20140318\SAC.WcfService\obj\Debug\SAC.WcfService.pdb

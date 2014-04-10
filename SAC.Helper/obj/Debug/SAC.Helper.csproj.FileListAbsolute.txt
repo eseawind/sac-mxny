@@ -1,0 +1,10 @@
+E:\WORK\sac-pt\SACSIS\SAC.Helper\bin\Debug\SAC.Helper.dll
+E:\WORK\sac-pt\SACSIS\SAC.Helper\bin\Debug\SAC.Helper.pdb
+E:\WORK\sac-pt\SACSIS\SAC.Helper\obj\Debug\ResolveAssemblyReference.cache
+E:\WORK\sac-pt\SACSIS\SAC.Helper\obj\Debug\SAC.Helper.dll
+E:\WORK\sac-pt\SACSIS\SAC.Helper\obj\Debug\SAC.Helper.pdb
+E:\SACSIS20140318\SAC.Helper\bin\Debug\SAC.Helper.dll
+E:\SACSIS20140318\SAC.Helper\bin\Debug\SAC.Helper.pdb
+E:\SACSIS20140318\SAC.Helper\obj\Debug\ResolveAssemblyReference.cache
+E:\SACSIS20140318\SAC.Helper\obj\Debug\SAC.Helper.dll
+E:\SACSIS20140318\SAC.Helper\obj\Debug\SAC.Helper.pdb

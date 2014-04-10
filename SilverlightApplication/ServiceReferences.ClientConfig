@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IUnit" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://172.18.121.228:8046/Unit.svc" binding="basicHttpBinding"
+                bindingConfiguration="BasicHttpBinding_IUnit" contract="WcfService.IUnit"
+                name="BasicHttpBinding_IUnit" />
+        </client>
+    </system.serviceModel>
+</configuration>

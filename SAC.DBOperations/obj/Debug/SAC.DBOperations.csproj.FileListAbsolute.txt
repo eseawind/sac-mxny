@@ -1,0 +1,14 @@
+E:\WORK\sac-pt\SACSIS\SAC.DBOperations\bin\Debug\SAC.DBOperations.dll
+E:\WORK\sac-pt\SACSIS\SAC.DBOperations\bin\Debug\SAC.DBOperations.pdb
+E:\WORK\sac-pt\SACSIS\SAC.DBOperations\bin\Debug\SAC.Helper.dll
+E:\WORK\sac-pt\SACSIS\SAC.DBOperations\bin\Debug\SAC.Helper.pdb
+E:\WORK\sac-pt\SACSIS\SAC.DBOperations\obj\Debug\ResolveAssemblyReference.cache
+E:\WORK\sac-pt\SACSIS\SAC.DBOperations\obj\Debug\SAC.DBOperations.dll
+E:\WORK\sac-pt\SACSIS\SAC.DBOperations\obj\Debug\SAC.DBOperations.pdb
+E:\SACSIS20140318\SAC.DBOperations\bin\Debug\SAC.DBOperations.dll
+E:\SACSIS20140318\SAC.DBOperations\bin\Debug\SAC.DBOperations.pdb
+E:\SACSIS20140318\SAC.DBOperations\bin\Debug\SAC.Helper.dll
+E:\SACSIS20140318\SAC.DBOperations\bin\Debug\SAC.Helper.pdb
+E:\SACSIS20140318\SAC.DBOperations\obj\Debug\ResolveAssemblyReference.cache
+E:\SACSIS20140318\SAC.DBOperations\obj\Debug\SAC.DBOperations.dll
+E:\SACSIS20140318\SAC.DBOperations\obj\Debug\SAC.DBOperations.pdb

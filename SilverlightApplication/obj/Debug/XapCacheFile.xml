@@ -1,0 +1,32 @@
+﻿<xapCache source="E:\SACSIS20140318\SilverlightApplication\Bin\Debug\SilverlightApplication.xap" lastWriteTime="2014/4/10 10:03:48">
+  <file source="E:\SACSIS20140318\SilverlightApplication\obj\Debug\SilverlightApplication.dll" archivePath="SilverlightApplication.dll" lastWriteTime="2014/4/10 10:03:41" />
+  <file source="c:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.ComponentModel.DataAnnotations.dll" archivePath="System.ComponentModel.DataAnnotations.dll" lastWriteTime="2009/8/19 21:24:56" />
+  <file source="c:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.Windows.Controls.Data.dll" archivePath="System.Windows.Controls.Data.dll" lastWriteTime="2009/8/19 21:24:56" />
+  <file source="c:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.Windows.Controls.Data.Input.dll" archivePath="System.Windows.Controls.Data.Input.dll" lastWriteTime="2009/8/19 21:24:56" />
+  <file source="c:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.Windows.Data.dll" archivePath="System.Windows.Data.dll" lastWriteTime="2009/8/19 21:24:56" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Controls.Charting.dll" archivePath="Telerik.Windows.Controls.Charting.dll" lastWriteTime="2014/4/3 9:36:42" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Controls.dll" archivePath="Telerik.Windows.Controls.dll" lastWriteTime="2014/4/3 9:36:42" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Controls.Gauge.dll" archivePath="Telerik.Windows.Controls.Gauge.dll" lastWriteTime="2014/4/3 9:36:43" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Controls.GridView.dll" archivePath="Telerik.Windows.Controls.GridView.dll" lastWriteTime="2014/4/3 9:36:43" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Controls.Input.dll" archivePath="Telerik.Windows.Controls.Input.dll" lastWriteTime="2014/4/3 9:36:43" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Controls.Navigation.dll" archivePath="Telerik.Windows.Controls.Navigation.dll" lastWriteTime="2014/4/3 9:36:43" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Controls.RibbonBar.dll" archivePath="Telerik.Windows.Controls.RibbonBar.dll" lastWriteTime="2014/4/3 9:36:43" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Controls.Scheduler.dll" archivePath="Telerik.Windows.Controls.Scheduler.dll" lastWriteTime="2014/4/3 9:36:43" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Data.dll" archivePath="Telerik.Windows.Data.dll" lastWriteTime="2014/4/3 9:36:43" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Documents.dll" archivePath="Telerik.Windows.Documents.dll" lastWriteTime="2014/4/3 9:36:43" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Themes.Expression_Dark.dll" archivePath="Telerik.Windows.Themes.Expression_Dark.dll" lastWriteTime="2014/4/3 9:36:43" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Themes.Office_Blue.dll" archivePath="Telerik.Windows.Themes.Office_Blue.dll" lastWriteTime="2014/4/3 9:36:43" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Themes.Office_Silver.dll" archivePath="Telerik.Windows.Themes.Office_Silver.dll" lastWriteTime="2014/4/3 9:36:43" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Themes.Summer.dll" archivePath="Telerik.Windows.Themes.Summer.dll" lastWriteTime="2014/4/3 9:36:43" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Themes.Transparent.dll" archivePath="Telerik.Windows.Themes.Transparent.dll" lastWriteTime="2014/4/3 9:36:43" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Themes.Vista.dll" archivePath="Telerik.Windows.Themes.Vista.dll" lastWriteTime="2014/4/3 9:36:43" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Telerik\Telerik.Windows.Themes.Windows7.dll" archivePath="Telerik.Windows.Themes.Windows7.dll" lastWriteTime="2014/4/3 9:36:43" />
+  <file source="c:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.Xml.Linq.dll" archivePath="System.Xml.Linq.dll" lastWriteTime="2009/8/17 22:35:44" />
+  <file source="c:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll" archivePath="zh-Hans\System.ComponentModel.DataAnnotations.resources.dll" lastWriteTime="2009/8/19 21:24:56" />
+  <file source="c:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\zh-Hans\System.Windows.Controls.Data.resources.dll" archivePath="zh-Hans\System.Windows.Controls.Data.resources.dll" lastWriteTime="2009/8/19 21:24:56" />
+  <file source="c:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\zh-Hans\System.Windows.Controls.Data.Input.resources.dll" archivePath="zh-Hans\System.Windows.Controls.Data.Input.resources.dll" lastWriteTime="2009/8/19 21:24:56" />
+  <file source="c:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\zh-Hans\System.Windows.Data.resources.dll" archivePath="zh-Hans\System.Windows.Data.resources.dll" lastWriteTime="2009/8/19 21:24:56" />
+  <file source="c:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\zh-Hans\System.Xml.Linq.resources.dll" archivePath="zh-Hans\System.Xml.Linq.resources.dll" lastWriteTime="2009/8/19 21:24:56" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\ServiceReferences.ClientConfig" archivePath="ServiceReferences.ClientConfig" lastWriteTime="2014/4/2 15:46:34" />
+  <file source="E:\SACSIS20140318\SilverlightApplication\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2014/4/4 16:29:26" />
+</xapCache>

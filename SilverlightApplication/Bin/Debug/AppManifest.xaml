@@ -1,0 +1,32 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="SilverlightApplication" EntryPointType="SilverlightApplication.App" RuntimeVersion="3.0.40818.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="SilverlightApplication" Source="SilverlightApplication.dll" />
+    <AssemblyPart x:Name="System.ComponentModel.DataAnnotations" Source="System.ComponentModel.DataAnnotations.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Data" Source="System.Windows.Controls.Data.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Data.Input" Source="System.Windows.Controls.Data.Input.dll" />
+    <AssemblyPart x:Name="System.Windows.Data" Source="System.Windows.Data.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Controls.Charting" Source="Telerik.Windows.Controls.Charting.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Controls" Source="Telerik.Windows.Controls.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Controls.Gauge" Source="Telerik.Windows.Controls.Gauge.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Controls.GridView" Source="Telerik.Windows.Controls.GridView.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Controls.Input" Source="Telerik.Windows.Controls.Input.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Controls.Navigation" Source="Telerik.Windows.Controls.Navigation.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Controls.RibbonBar" Source="Telerik.Windows.Controls.RibbonBar.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Controls.Scheduler" Source="Telerik.Windows.Controls.Scheduler.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Data" Source="Telerik.Windows.Data.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Documents" Source="Telerik.Windows.Documents.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Themes.Expression_Dark" Source="Telerik.Windows.Themes.Expression_Dark.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Themes.Office_Blue" Source="Telerik.Windows.Themes.Office_Blue.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Themes.Office_Silver" Source="Telerik.Windows.Themes.Office_Silver.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Themes.Summer" Source="Telerik.Windows.Themes.Summer.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Themes.Transparent" Source="Telerik.Windows.Themes.Transparent.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Themes.Vista" Source="Telerik.Windows.Themes.Vista.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Themes.Windows7" Source="Telerik.Windows.Themes.Windows7.dll" />
+    <AssemblyPart x:Name="System.Xml.Linq" Source="System.Xml.Linq.dll" />
+    <AssemblyPart Source="zh-Hans/System.ComponentModel.DataAnnotations.resources.dll" />
+    <AssemblyPart Source="zh-Hans/System.Windows.Controls.Data.resources.dll" />
+    <AssemblyPart Source="zh-Hans/System.Windows.Controls.Data.Input.resources.dll" />
+    <AssemblyPart Source="zh-Hans/System.Windows.Data.resources.dll" />
+    <AssemblyPart Source="zh-Hans/System.Xml.Linq.resources.dll" />
+  </Deployment.Parts>
+</Deployment>

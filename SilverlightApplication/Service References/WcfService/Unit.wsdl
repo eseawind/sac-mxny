@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Unit" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://172.18.121.228:8046/Unit.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://172.18.121.228:8046/Unit.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://172.18.121.228:8046/Unit.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IUnit_Power_InputMessage">
+    <wsdl:part name="parameters" element="tns:Power" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Power_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PowerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_HisPower_InputMessage">
+    <wsdl:part name="parameters" element="tns:HisPower" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_HisPower_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HisPowerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_PowerMax_InputMessage">
+    <wsdl:part name="parameters" element="tns:PowerMax" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_PowerMax_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PowerMaxResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_PowerMin_InputMessage">
+    <wsdl:part name="parameters" element="tns:PowerMin" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_PowerMin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PowerMinResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_PowerAvg_InputMessage">
+    <wsdl:part name="parameters" element="tns:PowerAvg" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_PowerAvg_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PowerAvgResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Flow_InputMessage">
+    <wsdl:part name="parameters" element="tns:Flow" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Flow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FlowResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Pressure_InputMessage">
+    <wsdl:part name="parameters" element="tns:Pressure" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Pressure_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PressureResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Temperature_InputMessage">
+    <wsdl:part name="parameters" element="tns:Temperature" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Temperature_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TemperatureResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_ReheatTemperature_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReheatTemperature" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_ReheatTemperature_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReheatTemperatureResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Vacuum_InputMessage">
+    <wsdl:part name="parameters" element="tns:Vacuum" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Vacuum_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VacuumResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Efficiency_InputMessage">
+    <wsdl:part name="parameters" element="tns:Efficiency" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Efficiency_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EfficiencyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Heatconsumption_InputMessage">
+    <wsdl:part name="parameters" element="tns:Heatconsumption" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Heatconsumption_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HeatconsumptionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Coalconsumption_InputMessage">
+    <wsdl:part name="parameters" element="tns:Coalconsumption" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Coalconsumption_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CoalconsumptionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Val_InputMessage">
+    <wsdl:part name="parameters" element="tns:Val" />
+  </wsdl:message>
+  <wsdl:message name="IUnit_Val_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IUnit">
+    <wsdl:operation name="Power">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUnit/Power" message="tns:IUnit_Power_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUnit/PowerResponse" message="tns:IUnit_Power_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HisPower">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUnit/HisPower" message="tns:IUnit_HisPower_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUnit/HisPowerResponse" message="tns:IUnit_HisPower_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PowerMax">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUnit/PowerMax" message="tns:IUnit_PowerMax_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUnit/PowerMaxResponse" message="tns:IUnit_PowerMax_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PowerMin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUnit/PowerMin" message="tns:IUnit_PowerMin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUnit/PowerMinResponse" message="tns:IUnit_PowerMin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PowerAvg">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUnit/PowerAvg" message="tns:IUnit_PowerAvg_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUnit/PowerAvgResponse" message="tns:IUnit_PowerAvg_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Flow">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUnit/Flow" message="tns:IUnit_Flow_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUnit/FlowResponse" message="tns:IUnit_Flow_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Pressure">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUnit/Pressure" message="tns:IUnit_Pressure_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUnit/PressureResponse" message="tns:IUnit_Pressure_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Temperature">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUnit/Temperature" message="tns:IUnit_Temperature_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUnit/TemperatureResponse" message="tns:IUnit_Temperature_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReheatTemperature">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUnit/ReheatTemperature" message="tns:IUnit_ReheatTemperature_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUnit/ReheatTemperatureResponse" message="tns:IUnit_ReheatTemperature_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Vacuum">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUnit/Vacuum" message="tns:IUnit_Vacuum_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUnit/VacuumResponse" message="tns:IUnit_Vacuum_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Efficiency">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUnit/Efficiency" message="tns:IUnit_Efficiency_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUnit/EfficiencyResponse" message="tns:IUnit_Efficiency_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Heatconsumption">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUnit/Heatconsumption" message="tns:IUnit_Heatconsumption_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUnit/HeatconsumptionResponse" message="tns:IUnit_Heatconsumption_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Coalconsumption">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUnit/Coalconsumption" message="tns:IUnit_Coalconsumption_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUnit/CoalconsumptionResponse" message="tns:IUnit_Coalconsumption_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Val">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUnit/Val" message="tns:IUnit_Val_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUnit/ValResponse" message="tns:IUnit_Val_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IUnit" type="tns:IUnit">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Power">
+      <soap:operation soapAction="http://tempuri.org/IUnit/Power" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HisPower">
+      <soap:operation soapAction="http://tempuri.org/IUnit/HisPower" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PowerMax">
+      <soap:operation soapAction="http://tempuri.org/IUnit/PowerMax" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PowerMin">
+      <soap:operation soapAction="http://tempuri.org/IUnit/PowerMin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PowerAvg">
+      <soap:operation soapAction="http://tempuri.org/IUnit/PowerAvg" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Flow">
+      <soap:operation soapAction="http://tempuri.org/IUnit/Flow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Pressure">
+      <soap:operation soapAction="http://tempuri.org/IUnit/Pressure" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Temperature">
+      <soap:operation soapAction="http://tempuri.org/IUnit/Temperature" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReheatTemperature">
+      <soap:operation soapAction="http://tempuri.org/IUnit/ReheatTemperature" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Vacuum">
+      <soap:operation soapAction="http://tempuri.org/IUnit/Vacuum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Efficiency">
+      <soap:operation soapAction="http://tempuri.org/IUnit/Efficiency" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Heatconsumption">
+      <soap:operation soapAction="http://tempuri.org/IUnit/Heatconsumption" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Coalconsumption">
+      <soap:operation soapAction="http://tempuri.org/IUnit/Coalconsumption" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Val">
+      <soap:operation soapAction="http://tempuri.org/IUnit/Val" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Unit">
+    <wsdl:port name="BasicHttpBinding_IUnit" binding="tns:BasicHttpBinding_IUnit">
+      <soap:address location="http://172.18.121.228:8046/Unit.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

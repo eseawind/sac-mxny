@@ -1,0 +1,4 @@
+	<object CLASSID="clsid:4F26B906-2854-11D1-9597-00A0C931BFC8" ID="Pbd1" WIDTH="100%" HEIGHT="100%" BORDER="0" VSPACE="0" HSPACE="0"  >
+	  <param name="ServerIniURL" value="C:\Program Files\PIPC\DAT\pilogin.ini">
+	  <param name="DIsplayURL" value="http://172.21.227.25/tbl/公用/电机一览.pdi">
+	</object>
