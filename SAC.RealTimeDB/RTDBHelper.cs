@@ -11,28 +11,33 @@ namespace SAC.RealTimeDB
         /// <summary>
         /// 实时数据库操作父类，在此类定义数据库操作要用到的方法
         /// </summary>
-        public virtual int OpenPi()
+        public virtual int OpenSR(ref int handle)
         {
             return 0;
         }
-        public virtual object closePi()
+        public virtual object closeSR(int handle)
         {
             object obj = null;
             return obj;
         }
-        public virtual double GetRealTimeValue(string tagName)//返回实时值
+        public virtual double GetRealTimeValue(string tagName, int bandle)//返回实时值
         {
             return 0;
         }
-        public virtual double GetHisValue(string tagName, string hisTime)//返回历史值
+        public virtual double[] GetRealTimeValues(int count, string[] tagName, int bandle)//返回实时值数组
+        {
+            double[] value = new double[count];
+            return value;
+        }
+        public virtual double GetHisValue(string tagName, string hisTime, int bandle)//返回历史值
         {
             return 0;
         }
-        public virtual int SetRealTimeValue(ref string tagName, ref object val)//写实时值
+        public virtual int SetRealTimeValue(ref string tagName, ref object val, int bandle)//写实时值
         {
             return 0;
         }
-        public virtual int SetHisValue(ref string tagName, ref string hisTime, ref object val)//写历史值
+        public virtual int SetHisValue(ref string tagName, ref string hisTime, ref object val, int bandle)//写历史值
         {
             return 0;
         }
@@ -63,27 +68,32 @@ namespace SAC.RealTimeDB
     public class Pi : RTDBHelper
     {
         SAC.RealTimeDB.Plink pl = new Plink();
-        public override int OpenPi()
+        public override int OpenSR(ref int handle)
         {
             return SAC.RealTimeDB.Plink.OpenPi();
         }
-        public override object closePi()
+        public override object closeSR(int handle)
         {
             return SAC.RealTimeDB.Plink.closePi();
         }
-        public override double GetRealTimeValue(string tagName)
+        public override double GetRealTimeValue(string tagName, int handle)
         {
             return SAC.RealTimeDB.Plink.returnValueByTagName(tagName);
         }
-        public override double GetHisValue(string tagName, string hisTime)
+        public override double[] GetRealTimeValues(int count, string[] tagName, int handle)
+        {
+            double[] value = new double[count];
+            return value;
+        }
+        public override double GetHisValue(string tagName, string hisTime, int handle)
         {
             return SAC.RealTimeDB.Plink.returnValueByTagName(tagName, hisTime);
         }
-        public override int SetRealTimeValue(ref string tagName, ref object val)
+        public override int SetRealTimeValue(ref string tagName, ref object val, int handle)
         {
             return pl.SetCurValue(ref tagName, ref val);
         }
-        public override int SetHisValue(ref string tagName, ref string hisTime, ref object val)
+        public override int SetHisValue(ref string tagName, ref string hisTime, ref object val, int handle)
         {
             return pl.SetHisValue(ref tagName, ref hisTime, ref val);
         }
@@ -96,29 +106,34 @@ namespace SAC.RealTimeDB
     {
         SAC.RealTimeDB.Elink el = new Elink();
 
-        public override int OpenPi()
+        public override int OpenSR(ref int handle)
         {
             return 0;
         }
-        public override object closePi()
+        public override object closeSR(int handle)
         {
             object obj =new object();
             return obj;
         }
 
-        public override double GetRealTimeValue(string tagName)
+        public override double GetRealTimeValue(string tagName, int handle)
         {
             return el.GetRTValue(tagName);
         }
-        public override double GetHisValue(string tagName, string hisTime)
+        public override double[] GetRealTimeValues(int count, string[] tagName, int handle)
+        {
+            double[] value = new double[count];
+            return value;
+        }
+        public override double GetHisValue(string tagName, string hisTime, int handle)
         {
             return el.GetHisValue(tagName, hisTime);
         }
-        public override int SetRealTimeValue(ref string tagName, ref object val)
+        public override int SetRealTimeValue(ref string tagName, ref object val, int handle)
         {
             return el.SetCurValue(ref tagName, ref val);
         }
-        public override int SetHisValue(ref string tagName, ref string hisTime, ref object val)
+        public override int SetHisValue(ref string tagName, ref string hisTime, ref object val, int handle)
         {
             return el.SetHisValue(ref tagName, ref hisTime, ref val);
         }
@@ -157,6 +172,43 @@ namespace SAC.RealTimeDB
         public override string RetPointDiffValue(string tag, string bt, string et)
         {
             return el.RetPointDiffValue(tag, bt, et);
+        }
+    }
+    public class SamrtReal : RTDBHelper
+    {
+        SAC.RealTimeDB.Slink sl = new Slink();
+        public override int OpenSR(ref int handle)
+        {
+            return SAC.RealTimeDB.Slink.OpenSR(ref handle);
+        }
+        public override object closeSR(int handle)
+        {
+            object obj = new object();
+            return SAC.RealTimeDB.Slink.DisconectToSR(handle);
+        }
+        public override double GetRealTimeValue(string tagName, int handle)
+        {
+            return SAC.RealTimeDB.Slink.GetRealTimeValue(tagName, handle);
+        }
+        public override double[] GetRealTimeValues(int count, string[] tagName, int handle)
+        {
+            return SAC.RealTimeDB.Slink.GetRealTimeValues(count, tagName, handle);
+        }
+        public override double GetHisValue(string tagName, string hisTime, int handle)
+        {
+            return SAC.RealTimeDB.Slink.GetHisValue(tagName, hisTime, handle);
+        }
+        public override int SetRealTimeValue(ref string tagName, ref object val, int handle)
+        {
+            return 0;
+        }
+        public override int SetHisValue(ref string tagName, ref string hisTime, ref object val, int handle)
+        {
+            return SAC.RealTimeDB.Slink.SetHisValue(ref tagName, ref hisTime, ref val, handle);
+        }
+        public override void GetHisValue(string pName, string time, ref double val)
+        {
+            
         }
     }
 }

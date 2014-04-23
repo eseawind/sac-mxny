@@ -24,48 +24,59 @@ namespace SAC.RealTimeDB
             {
                 rtdbLink = new eDna();
             }
+            else if (DBtype == "SmartReal")
+            {
+                rtdbLink = new SamrtReal();
+            }
         }
         /// <summary>
         /// 打开pi数据库连接
         /// </summary>
-        public int OpenPi()
+        public int OpenSR(ref int handle)
         {
-            return rtdbLink.OpenPi();
+            return rtdbLink.OpenSR(ref handle);
         }
         /// <summary>
         /// 关闭pi数据库连接
         /// </summary>
-        public object ClosePi()
+        public object ClosePi(int handle)
         {
-            return rtdbLink.closePi();
+            return rtdbLink.closeSR(handle);
         }
         /// <summary>
         /// 获取实时值
         /// </summary>
-        public double GetRealTimeValue(string tagName)
+        public double GetRealTimeValue(string tagName, int handle)
         {
-            return rtdbLink.GetRealTimeValue(tagName);
+            return rtdbLink.GetRealTimeValue(tagName, handle);
+        }
+        /// <summary>
+        /// 获取实时值数组
+        /// </summary>
+        public double[] GetRealTimeValues(int count, string[] tagName, int handle)
+        {
+            return rtdbLink.GetRealTimeValues(count, tagName, handle);
         }
         /// <summary>
         /// 获取历史值
         /// </summary>
-        public double GetHisValue(string tagName, string hisTime)
+        public double GetHisValue(string tagName, string hisTime, int handle)
         {
-            return rtdbLink.GetHisValue(tagName, hisTime);
+            return rtdbLink.GetHisValue(tagName, hisTime, handle);
         }
         /// <summary>
         /// 写实时值
         /// </summary>
-        public int SetRealTimeValue(ref string tagName, ref object val)
+        public int SetRealTimeValue(ref string tagName, ref object val, int handle)
         {
-            return rtdbLink.SetRealTimeValue(ref tagName,ref val);
+            return rtdbLink.SetRealTimeValue(ref tagName, ref val, handle);
         }
         /// <summary>
         /// 写历史值
         /// </summary>
-        public int SetHisValue(ref string tagName, ref string hisTime, ref object val)
+        public int SetHisValue(ref string tagName, ref string hisTime, ref object val, int handle)
         {
-            return rtdbLink.SetHisValue(ref tagName,ref hisTime,ref val);
+            return rtdbLink.SetHisValue(ref tagName, ref hisTime, ref val, handle);
         }
 
         public void GetHisValue(string pName, string time, ref double val)
