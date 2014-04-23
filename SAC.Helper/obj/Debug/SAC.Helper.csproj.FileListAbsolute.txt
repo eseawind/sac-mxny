@@ -13,3 +13,8 @@ F:\Project\sac-mxny\SAC.Helper\bin\Debug\SAC.Helper.pdb
 F:\Project\sac-mxny\SAC.Helper\obj\Debug\ResolveAssemblyReference.cache
 F:\Project\sac-mxny\SAC.Helper\obj\Debug\SAC.Helper.dll
 F:\Project\sac-mxny\SAC.Helper\obj\Debug\SAC.Helper.pdb
+E:\蒙能\sac-mxny\SAC.Helper\bin\Debug\SAC.Helper.dll
+E:\蒙能\sac-mxny\SAC.Helper\bin\Debug\SAC.Helper.pdb
+E:\蒙能\sac-mxny\SAC.Helper\obj\Debug\ResolveAssemblyReference.cache
+E:\蒙能\sac-mxny\SAC.Helper\obj\Debug\SAC.Helper.dll
+E:\蒙能\sac-mxny\SAC.Helper\obj\Debug\SAC.Helper.pdb

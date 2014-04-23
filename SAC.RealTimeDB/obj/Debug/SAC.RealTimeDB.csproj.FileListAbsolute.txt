@@ -43,3 +43,12 @@ F:\Project\sac-mxny\SAC.RealTimeDB\obj\Debug\Interop.ELink.dll
 F:\Project\sac-mxny\SAC.RealTimeDB\obj\Debug\SAC.RealTimeDB.csproj.ResolveComReference.cache
 F:\Project\sac-mxny\SAC.RealTimeDB\obj\Debug\SAC.RealTimeDB.dll
 F:\Project\sac-mxny\SAC.RealTimeDB\obj\Debug\SAC.RealTimeDB.pdb
+E:\蒙能\sac-mxny\SAC.RealTimeDB\bin\Debug\SAC.RealTimeDB.dll
+E:\蒙能\sac-mxny\SAC.RealTimeDB\bin\Debug\SAC.RealTimeDB.pdb
+E:\蒙能\sac-mxny\SAC.RealTimeDB\bin\Debug\SAC.Helper.dll
+E:\蒙能\sac-mxny\SAC.RealTimeDB\bin\Debug\SAC.Helper.pdb
+E:\蒙能\sac-mxny\SAC.RealTimeDB\obj\Debug\ResolveAssemblyReference.cache
+E:\蒙能\sac-mxny\SAC.RealTimeDB\obj\Debug\Interop.ELink.dll
+E:\蒙能\sac-mxny\SAC.RealTimeDB\obj\Debug\SAC.RealTimeDB.csproj.ResolveComReference.cache
+E:\蒙能\sac-mxny\SAC.RealTimeDB\obj\Debug\SAC.RealTimeDB.dll
+E:\蒙能\sac-mxny\SAC.RealTimeDB\obj\Debug\SAC.RealTimeDB.pdb

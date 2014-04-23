@@ -61,9 +61,7 @@ namespace SAC.RealTimeDB
             if (j == 0)
             { return Convert.ToDouble(drval.ToString()); }
             else
-            { return -1000000; }
-            //{ return Convert.ToDouble(drval.ToString()); }
-
+            { return Convert.ToDouble(drval.ToString()); }
         }
 
         /// <summary>
@@ -87,8 +85,7 @@ namespace SAC.RealTimeDB
             if (j == 0)
             { return Convert.ToDouble(drval.ToString()); }
             else
-            //{ return Convert.ToDouble(drval.ToString()); }
-            { return -1000000; }
+            { return Convert.ToDouble(drval.ToString()); }
         }
 
         /// <summary>
@@ -112,8 +109,7 @@ namespace SAC.RealTimeDB
             if (j == 0)
                 val = double.Parse(drval.ToString());
             else
-            //val = 0;
-            { val = -1000000; }
+                val = 0;
         }
 
         public int SetHisValue(ref string pName, ref string time, ref object val)

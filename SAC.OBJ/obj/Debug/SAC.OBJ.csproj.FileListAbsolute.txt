@@ -26,3 +26,5 @@ F:\Project\sac-mxny\SAC.OBJ\bin\Debug\SAC.Helper.pdb
 F:\Project\sac-mxny\SAC.OBJ\obj\Debug\ResolveAssemblyReference.cache
 F:\Project\sac-mxny\SAC.OBJ\obj\Debug\SAC.OBJ.dll
 F:\Project\sac-mxny\SAC.OBJ\obj\Debug\SAC.OBJ.pdb
+E:\蒙能\sac-mxny\SAC.OBJ\obj\Debug\ResolveAssemblyReference.cache
+E:\蒙能\sac-mxny\SAC.OBJ\obj\Debug\SAC.OBJ.pdb

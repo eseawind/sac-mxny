@@ -30,3 +30,5 @@ F:\Project\sac-mxny\SAC.WcfService\bin\SAC.DBOperations.pdb
 F:\Project\sac-mxny\SAC.WcfService\bin\SAC.RealTimeDB.pdb
 F:\Project\sac-mxny\SAC.WcfService\bin\SAC.Helper.pdb
 F:\Project\sac-mxny\SAC.WcfService\obj\Debug\SAC.WcfService.dll
+E:\蒙能\sac-mxny\SAC.WcfService\obj\Debug\ResolveAssemblyReference.cache
+E:\蒙能\sac-mxny\SAC.WcfService\obj\Debug\SAC.WcfService.pdb

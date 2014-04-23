@@ -62,3 +62,7 @@ F:\Project\sac-mxny\SACSIS\obj\Debug\RdlCompile.cache
 F:\Project\sac-mxny\SACSIS\obj\Debug\RdlCompile.compiled
 F:\Project\sac-mxny\SACSIS\obj\Debug\SACSIS.dll
 F:\Project\sac-mxny\SACSIS\obj\Debug\SACSIS.pdb
+E:\蒙能\sac-mxny\SACSIS\obj\Debug\ResolveAssemblyReference.cache
+E:\蒙能\sac-mxny\SACSIS\obj\Debug\RdlCompile.cache
+E:\蒙能\sac-mxny\SACSIS\obj\Debug\RdlCompile.compiled
+E:\蒙能\sac-mxny\SACSIS\obj\Debug\SACSIS.pdb

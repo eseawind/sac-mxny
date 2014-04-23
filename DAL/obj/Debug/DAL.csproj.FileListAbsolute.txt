@@ -40,3 +40,7 @@ F:\Project\sac-mxny\DAL\obj\Debug\Interop.PiLink.dll
 F:\Project\sac-mxny\DAL\obj\Debug\DAL.csproj.ResolveComReference.cache
 F:\Project\sac-mxny\DAL\obj\Debug\DAL.dll
 F:\Project\sac-mxny\DAL\obj\Debug\DAL.pdb
+E:\蒙能\sac-mxny\DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\蒙能\sac-mxny\DAL\obj\Debug\Interop.PiLink.dll
+E:\蒙能\sac-mxny\DAL\obj\Debug\DAL.csproj.ResolveComReference.cache
+E:\蒙能\sac-mxny\DAL\obj\Debug\DAL.pdb

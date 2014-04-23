@@ -34,3 +34,12 @@ F:\Project\sac-mxny\Module\bin\Debug\SAC.Helper.pdb
 F:\Project\sac-mxny\Module\obj\Debug\ResolveAssemblyReference.cache
 F:\Project\sac-mxny\Module\obj\Debug\Module.dll
 F:\Project\sac-mxny\Module\obj\Debug\Module.pdb
+E:\蒙能\sac-mxny\Module\bin\Debug\Module.dll
+E:\蒙能\sac-mxny\Module\bin\Debug\Module.pdb
+E:\蒙能\sac-mxny\Module\bin\Debug\SAC.DBOperations.dll
+E:\蒙能\sac-mxny\Module\bin\Debug\SAC.Helper.dll
+E:\蒙能\sac-mxny\Module\bin\Debug\SAC.DBOperations.pdb
+E:\蒙能\sac-mxny\Module\bin\Debug\SAC.Helper.pdb
+E:\蒙能\sac-mxny\Module\obj\Debug\ResolveAssemblyReference.cache
+E:\蒙能\sac-mxny\Module\obj\Debug\Module.dll
+E:\蒙能\sac-mxny\Module\obj\Debug\Module.pdb

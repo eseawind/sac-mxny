@@ -40,3 +40,5 @@ F:\Project\sac-mxny\BLL\bin\Debug\SAC.RealTimeDB.pdb
 F:\Project\sac-mxny\BLL\obj\Debug\ResolveAssemblyReference.cache
 F:\Project\sac-mxny\BLL\obj\Debug\BLL.dll
 F:\Project\sac-mxny\BLL\obj\Debug\BLL.pdb
+E:\蒙能\sac-mxny\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\蒙能\sac-mxny\BLL\obj\Debug\BLL.pdb

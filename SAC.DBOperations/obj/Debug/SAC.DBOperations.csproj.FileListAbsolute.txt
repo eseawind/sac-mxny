@@ -19,3 +19,10 @@ F:\Project\sac-mxny\SAC.DBOperations\bin\Debug\SAC.Helper.pdb
 F:\Project\sac-mxny\SAC.DBOperations\obj\Debug\ResolveAssemblyReference.cache
 F:\Project\sac-mxny\SAC.DBOperations\obj\Debug\SAC.DBOperations.dll
 F:\Project\sac-mxny\SAC.DBOperations\obj\Debug\SAC.DBOperations.pdb
+E:\蒙能\sac-mxny\SAC.DBOperations\bin\Debug\SAC.DBOperations.dll
+E:\蒙能\sac-mxny\SAC.DBOperations\bin\Debug\SAC.DBOperations.pdb
+E:\蒙能\sac-mxny\SAC.DBOperations\bin\Debug\SAC.Helper.dll
+E:\蒙能\sac-mxny\SAC.DBOperations\bin\Debug\SAC.Helper.pdb
+E:\蒙能\sac-mxny\SAC.DBOperations\obj\Debug\ResolveAssemblyReference.cache
+E:\蒙能\sac-mxny\SAC.DBOperations\obj\Debug\SAC.DBOperations.dll
+E:\蒙能\sac-mxny\SAC.DBOperations\obj\Debug\SAC.DBOperations.pdb
