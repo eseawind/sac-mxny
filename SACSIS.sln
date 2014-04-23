@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightApplication", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAC.WcfService", "SAC.WcfService\SAC.WcfService.csproj", "{1FCF7657-E47C-4C68-BB42-953BF59E4E69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAC.MXNY", "SAC.MXNY\SAC.MXNY.csproj", "{546A673D-5485-4AD4-8695-7803CE6AFDDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{1FCF7657-E47C-4C68-BB42-953BF59E4E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FCF7657-E47C-4C68-BB42-953BF59E4E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FCF7657-E47C-4C68-BB42-953BF59E4E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{546A673D-5485-4AD4-8695-7803CE6AFDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546A673D-5485-4AD4-8695-7803CE6AFDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546A673D-5485-4AD4-8695-7803CE6AFDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546A673D-5485-4AD4-8695-7803CE6AFDDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

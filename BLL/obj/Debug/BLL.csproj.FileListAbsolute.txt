@@ -26,3 +26,17 @@ E:\SACSIS20140318\BLL\bin\Debug\SAC.RealTimeDB.pdb
 E:\SACSIS20140318\BLL\obj\Debug\ResolveAssemblyReference.cache
 E:\SACSIS20140318\BLL\obj\Debug\BLL.dll
 E:\SACSIS20140318\BLL\obj\Debug\BLL.pdb
+F:\Project\sac-mxny\BLL\bin\Debug\BLL.dll
+F:\Project\sac-mxny\BLL\bin\Debug\BLL.pdb
+F:\Project\sac-mxny\BLL\bin\Debug\DAL.dll
+F:\Project\sac-mxny\BLL\bin\Debug\SAC.Helper.dll
+F:\Project\sac-mxny\BLL\bin\Debug\SAC.DBOperations.dll
+F:\Project\sac-mxny\BLL\bin\Debug\SAC.RealTimeDB.dll
+F:\Project\sac-mxny\BLL\bin\Debug\eDnaApiNet.dll
+F:\Project\sac-mxny\BLL\bin\Debug\DAL.pdb
+F:\Project\sac-mxny\BLL\bin\Debug\SAC.Helper.pdb
+F:\Project\sac-mxny\BLL\bin\Debug\SAC.DBOperations.pdb
+F:\Project\sac-mxny\BLL\bin\Debug\SAC.RealTimeDB.pdb
+F:\Project\sac-mxny\BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\sac-mxny\BLL\obj\Debug\BLL.dll
+F:\Project\sac-mxny\BLL\obj\Debug\BLL.pdb

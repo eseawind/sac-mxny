@@ -26,3 +26,17 @@ E:\SACSIS20140318\DAL\obj\Debug\Interop.PiLink.dll
 E:\SACSIS20140318\DAL\obj\Debug\DAL.csproj.ResolveComReference.cache
 E:\SACSIS20140318\DAL\obj\Debug\DAL.dll
 E:\SACSIS20140318\DAL\obj\Debug\DAL.pdb
+F:\Project\sac-mxny\DAL\bin\Debug\DAL.dll
+F:\Project\sac-mxny\DAL\bin\Debug\DAL.pdb
+F:\Project\sac-mxny\DAL\bin\Debug\SAC.DBOperations.dll
+F:\Project\sac-mxny\DAL\bin\Debug\SAC.Helper.dll
+F:\Project\sac-mxny\DAL\bin\Debug\SAC.RealTimeDB.dll
+F:\Project\sac-mxny\DAL\bin\Debug\eDnaApiNet.dll
+F:\Project\sac-mxny\DAL\bin\Debug\SAC.DBOperations.pdb
+F:\Project\sac-mxny\DAL\bin\Debug\SAC.Helper.pdb
+F:\Project\sac-mxny\DAL\bin\Debug\SAC.RealTimeDB.pdb
+F:\Project\sac-mxny\DAL\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\sac-mxny\DAL\obj\Debug\Interop.PiLink.dll
+F:\Project\sac-mxny\DAL\obj\Debug\DAL.csproj.ResolveComReference.cache
+F:\Project\sac-mxny\DAL\obj\Debug\DAL.dll
+F:\Project\sac-mxny\DAL\obj\Debug\DAL.pdb

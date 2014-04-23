@@ -482,6 +482,45 @@ namespace DAL
 
         #endregion
 
-      
+        #region 获取机组风速
+        /// <summary>
+        /// 获取机组风速
+        /// </summary>
+        /// <param name="unitId">机组编号</param>
+        /// <returns>平局风速</returns>
+        public double GetWind(string unitId)
+        {
+            sql = "select T_WINDTAG from T_BASE_POINT_UNIT where T_UNITID='" + unitId + "'";
+            obj = db.RunSingle(sql, out errMsg);
+
+            if (obj != null)
+            {
+                val = GetPointVal(obj.ToString());
+            }
+            return val;
+        }
+        #endregion
+
+        #region 获取机组电量
+        /// <summary>
+        /// 获取机组电量
+        /// </summary>
+        /// <param name="key>机组编码param>
+        /// <param name="st">开始时间</param>
+        /// <param name="et">结束时间</param>
+        /// <returns>电量</returns>
+        public double GetUnitDL(string key, string st, string et)
+        {
+            sql += "select sum(D_VALUE) val from T_INFO_STATISCS where T_TJID='DL' and T_ORGID='" + key + "' and (T_TIME between '" + st + "' and '" + et + "')";
+
+            obj = db.RunSingle(sql, out errMsg);
+
+            if (obj != null)
+            {
+                val = Convert.ToDouble(obj);
+            }
+            return val;
+        }
+        #endregion
     }
 }

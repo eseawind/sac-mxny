@@ -52,5 +52,11 @@ namespace SAC.WcfService
 
         [OperationContract]
         double[] Val(string key);
+
+        [OperationContract]
+        double GetDL(string key, string st, string et);
+
+        [OperationContract]
+        double GetWind(string key);
     }
 }

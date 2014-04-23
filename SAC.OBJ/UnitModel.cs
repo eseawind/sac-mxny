@@ -13,6 +13,7 @@ namespace SAC.OBJ
         {
             unitId = key;
         }
+        public UnitModel(string key, string st, string et) { unitId = key; sTime = st; eTime = et; }
 
         public string unitId = "";
         public string time = "";
@@ -169,5 +170,24 @@ namespace SAC.OBJ
         }
         #endregion
 
+        #region 电量
+        double dl;
+
+        public double Dl
+        {
+            get { return dal.GetUnitDL(unitId, sTime, eTime); }
+            //set { dl = value; }
+        }
+        #endregion
+
+        #region 风速
+        double wind;
+
+        public double Wind
+        {
+            get { return dal.GetWind(unitId); }
+            //set { wind = value; }
+        }
+        #endregion
     }
 }

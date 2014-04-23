@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AreaCompanyDAL.cs" />
     <Compile Include="DALComparaAnalysis.cs" />
     <Compile Include="DAlGet_chart_Data.cs" />
     <Compile Include="DALPubMehtod.cs" />
@@ -62,6 +63,8 @@
     <Compile Include="ReportDAL.cs" />
     <Compile Include="RLDAL.cs" />
     <Compile Include="UnitDAL.cs" />
+    <Compile Include="WindCompanyDAL.cs" />
+    <Compile Include="WindFactoryDAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SAC.DBOperations\SAC.DBOperations.csproj">

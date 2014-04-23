@@ -170,5 +170,29 @@ namespace SAC.WcfService
             return um.Val;
         }
         #endregion
+
+        #region 电量
+        /// <summary>
+        /// 电量
+        /// </summary>
+        /// <returns></returns>
+        public double GetDL(string key, string st, string et)
+        {
+            UnitModel um = new UnitModel(key, st, et);
+            return um.Dl;
+        }
+        #endregion
+
+        #region 风速
+        /// <summary>
+        /// 风速
+        /// </summary>
+        /// <returns></returns>
+        public double GetWind(string key)
+        {
+            UnitModel um = new UnitModel(key);
+            return um.Wind;
+        }
+        #endregion
     }
 }

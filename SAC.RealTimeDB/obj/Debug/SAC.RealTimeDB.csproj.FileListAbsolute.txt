@@ -34,3 +34,12 @@ E:\SACSIS20140318\SAC.RealTimeDB\obj\Debug\Interop.ELink.dll
 E:\SACSIS20140318\SAC.RealTimeDB\obj\Debug\SAC.RealTimeDB.csproj.ResolveComReference.cache
 E:\SACSIS20140318\SAC.RealTimeDB\obj\Debug\SAC.RealTimeDB.dll
 E:\SACSIS20140318\SAC.RealTimeDB\obj\Debug\SAC.RealTimeDB.pdb
+F:\Project\sac-mxny\SAC.RealTimeDB\bin\Debug\SAC.RealTimeDB.dll
+F:\Project\sac-mxny\SAC.RealTimeDB\bin\Debug\SAC.RealTimeDB.pdb
+F:\Project\sac-mxny\SAC.RealTimeDB\bin\Debug\SAC.Helper.dll
+F:\Project\sac-mxny\SAC.RealTimeDB\bin\Debug\SAC.Helper.pdb
+F:\Project\sac-mxny\SAC.RealTimeDB\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\sac-mxny\SAC.RealTimeDB\obj\Debug\Interop.ELink.dll
+F:\Project\sac-mxny\SAC.RealTimeDB\obj\Debug\SAC.RealTimeDB.csproj.ResolveComReference.cache
+F:\Project\sac-mxny\SAC.RealTimeDB\obj\Debug\SAC.RealTimeDB.dll
+F:\Project\sac-mxny\SAC.RealTimeDB\obj\Debug\SAC.RealTimeDB.pdb

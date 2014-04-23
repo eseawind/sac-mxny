@@ -8,3 +8,8 @@ E:\SACSIS20140318\SAC.Helper\bin\Debug\SAC.Helper.pdb
 E:\SACSIS20140318\SAC.Helper\obj\Debug\ResolveAssemblyReference.cache
 E:\SACSIS20140318\SAC.Helper\obj\Debug\SAC.Helper.dll
 E:\SACSIS20140318\SAC.Helper\obj\Debug\SAC.Helper.pdb
+F:\Project\sac-mxny\SAC.Helper\bin\Debug\SAC.Helper.dll
+F:\Project\sac-mxny\SAC.Helper\bin\Debug\SAC.Helper.pdb
+F:\Project\sac-mxny\SAC.Helper\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\sac-mxny\SAC.Helper\obj\Debug\SAC.Helper.dll
+F:\Project\sac-mxny\SAC.Helper\obj\Debug\SAC.Helper.pdb

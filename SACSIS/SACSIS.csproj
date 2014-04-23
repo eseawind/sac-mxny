@@ -15,7 +15,7 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>false</UseIISExpress>
     <TargetFrameworkProfile />
-    <SilverlightApplicationList>{188EF87A-D3F8-4792-A519-DDDCDBB3B6EA}|..\SilverlightApplication\SilverlightApplication.csproj|ClientBin|False</SilverlightApplicationList>
+    <SilverlightApplicationList>{188EF87A-D3F8-4792-A519-DDDCDBB3B6EA}|..\SilverlightApplication\SilverlightApplication.csproj|ClientBin|False,{546A673D-5485-4AD4-8695-7803CE6AFDDD}|..\SAC.MXNY\SAC.MXNY.csproj|ClientBin|False</SilverlightApplicationList>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -80,6 +80,7 @@
     <Content Include="Admin\ManagePower.aspx" />
     <Content Include="Admin\ManageRole.aspx" />
     <Content Include="Admin\ManageRoleUser.aspx" />
+    <Content Include="ClientBin\SAC.MXNY.xap" />
     <Content Include="ClientBin\SilverlightApplication.xap" />
     <Content Include="Connect.aspx" />
     <Content Include="css\update8.css" />
@@ -1117,6 +1118,8 @@
     <Content Include="Report\ManageUnit.aspx" />
     <Content Include="Report\MangeShiftRep.aspx" />
     <Content Include="Report\ManagePoint.aspx" />
+    <Content Include="SAC.MXNYTestPage.aspx" />
+    <Content Include="SAC.MXNYTestPage.html" />
     <Content Include="Silverlight.js" />
     <Content Include="SilverlightApplicationTestPage.aspx" />
     <Content Include="SilverlightApplicationTestPage.html" />

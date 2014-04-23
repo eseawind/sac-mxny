@@ -7,10 +7,10 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <StartPageUrl>Report/EditPara.aspx</StartPageUrl>
+          <StartPageUrl>SAC.MXNYTestPage.aspx</StartPageUrl>
           <StartAction>SpecificPage</StartAction>
           <AspNetDebugging>True</AspNetDebugging>
-          <SilverlightDebugging>False</SilverlightDebugging>
+          <SilverlightDebugging>True</SilverlightDebugging>
           <NativeDebugging>False</NativeDebugging>
           <SQLDebugging>False</SQLDebugging>
           <ExternalProgram>
@@ -24,7 +24,9 @@
           <EnableENC>False</EnableENC>
           <AlwaysStartWebServerOnDebug>True</AlwaysStartWebServerOnDebug>
           <ProjectOutputReferences>
-            <Ref Project="{188EF87A-D3F8-4792-A519-DDDCDBB3B6EA}" Folder="ClientBin">SilverlightApplication.xap</Ref>
+            <Ref Project="{188EF87A-D3F8-4792-A519-DDDCDBB3B6EA}" Folder="ClientBin">
+            </Ref>
+            <Ref Project="{546A673D-5485-4AD4-8695-7803CE6AFDDD}" Folder="ClientBin">SAC.MXNY.xap</Ref>
           </ProjectOutputReferences>
         </WebProjectProperties>
       </FlavorProperties>

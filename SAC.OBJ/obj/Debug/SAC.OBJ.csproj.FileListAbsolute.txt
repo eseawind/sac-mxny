@@ -12,3 +12,17 @@ E:\SACSIS20140318\SAC.OBJ\bin\Debug\SAC.RealTimeDB.pdb
 E:\SACSIS20140318\SAC.OBJ\obj\Debug\ResolveAssemblyReference.cache
 E:\SACSIS20140318\SAC.OBJ\obj\Debug\SAC.OBJ.dll
 E:\SACSIS20140318\SAC.OBJ\obj\Debug\SAC.OBJ.pdb
+F:\Project\sac-mxny\SAC.OBJ\bin\Debug\SAC.OBJ.dll
+F:\Project\sac-mxny\SAC.OBJ\bin\Debug\SAC.OBJ.pdb
+F:\Project\sac-mxny\SAC.OBJ\bin\Debug\DAL.dll
+F:\Project\sac-mxny\SAC.OBJ\bin\Debug\SAC.DBOperations.dll
+F:\Project\sac-mxny\SAC.OBJ\bin\Debug\SAC.RealTimeDB.dll
+F:\Project\sac-mxny\SAC.OBJ\bin\Debug\SAC.Helper.dll
+F:\Project\sac-mxny\SAC.OBJ\bin\Debug\eDnaApiNet.dll
+F:\Project\sac-mxny\SAC.OBJ\bin\Debug\DAL.pdb
+F:\Project\sac-mxny\SAC.OBJ\bin\Debug\SAC.DBOperations.pdb
+F:\Project\sac-mxny\SAC.OBJ\bin\Debug\SAC.RealTimeDB.pdb
+F:\Project\sac-mxny\SAC.OBJ\bin\Debug\SAC.Helper.pdb
+F:\Project\sac-mxny\SAC.OBJ\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\sac-mxny\SAC.OBJ\obj\Debug\SAC.OBJ.dll
+F:\Project\sac-mxny\SAC.OBJ\obj\Debug\SAC.OBJ.pdb
